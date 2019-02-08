@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		EC86F518220D3B560093FB5C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC86F517220D3B560093FB5C /* AppDelegate.swift */; };
 		EC86F51A220D3B560093FB5C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC86F519220D3B560093FB5C /* ViewController.swift */; };
-		EC86F51D220D3B560093FB5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC86F51B220D3B560093FB5C /* Main.storyboard */; };
 		EC86F520220D3B560093FB5C /* advanceCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EC86F51E220D3B560093FB5C /* advanceCoreData.xcdatamodeld */; };
 		EC86F522220D3B590093FB5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC86F521220D3B590093FB5C /* Assets.xcassets */; };
 		EC86F525220D3B5A0093FB5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC86F523220D3B5A0093FB5C /* LaunchScreen.storyboard */; };
@@ -19,7 +18,6 @@
 		EC86F514220D3B560093FB5C /* advanceCoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = advanceCoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC86F517220D3B560093FB5C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC86F519220D3B560093FB5C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EC86F51C220D3B560093FB5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EC86F51F220D3B560093FB5C /* advanceCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = advanceCoreData.xcdatamodel; sourceTree = "<group>"; };
 		EC86F521220D3B590093FB5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC86F524220D3B5A0093FB5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,7 +56,6 @@
 			children = (
 				EC86F517220D3B560093FB5C /* AppDelegate.swift */,
 				EC86F519220D3B560093FB5C /* ViewController.swift */,
-				EC86F51B220D3B560093FB5C /* Main.storyboard */,
 				EC86F521220D3B590093FB5C /* Assets.xcassets */,
 				EC86F523220D3B5A0093FB5C /* LaunchScreen.storyboard */,
 				EC86F526220D3B5A0093FB5C /* Info.plist */,
@@ -127,7 +124,6 @@
 			files = (
 				EC86F525220D3B5A0093FB5C /* LaunchScreen.storyboard in Resources */,
 				EC86F522220D3B590093FB5C /* Assets.xcassets in Resources */,
-				EC86F51D220D3B560093FB5C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,14 +143,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		EC86F51B220D3B560093FB5C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EC86F51C220D3B560093FB5C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EC86F523220D3B5A0093FB5C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
